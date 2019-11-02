@@ -1,0 +1,179 @@
+<html>
+<head>
+<meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
+
+<title>Enter Car Details</title>
+<link rel="stylesheet" type="text/css" href="">
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+<style>
+
+body{
+            margin: 0;
+            padding: 0;
+        }
+        body:before{
+            content: '';
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background-image: url("https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80.jpeg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            -webkit-filter: blur(3px);
+            -moz-filter: blur(3px);
+            -o-filter: blur(3px);
+            -ms-filter: blur(3px);
+            filter: blur(3px);
+        
+            }
+            
+         h1{
+         
+         color : #fff;
+         }
+            
+         label{
+         
+         color : #fff;
+         }
+         
+        .contact-form
+        {
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 400px;
+            height: 1000px;
+            padding: 70px 40px;
+            box-sizing: border-box;
+            background: rgba(0,0,0,.3);
+        }
+        .avatar {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            
+            left: calc(50% - 40px);
+        }
+        .contact-form h2 {
+            margin: 0;
+            padding: 0 0 20px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .contact-form p
+        {
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            color: #fff;
+        }
+        .contact-form input
+        {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="password"]
+        {
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: #fff;
+            font-size: 16px;
+        }
+        .contact-form input[type="submit"] {
+            height: 30px;
+            color: #fff;
+            font-size: 15px;
+            background: red;
+            cursor: pointer;
+            border-radius: 25px;
+            border: none;
+            outline: none;
+            margin-top: 15%;
+        }
+        .contact-form a
+        {
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+
+</style>
+
+</head>
+<body>
+
+<div class="contact-form">
+  <h1>Enter Car Details</h1>
+  <form action="adduser.php" method="POST">
+  <div class="textbox1">
+  <label> Owner Name :</label>
+    <input type="text" placeholder="Owner" name="username" required>
+  </div>
+
+  <div class="textbox1">
+  <label> Model Name :</label>
+    <input type="text" placeholder="Enter Model Name" name="password" required>
+  </div>
+<div class="textbox1">
+	<label>Serial Number :</label>
+    <input type="text" placeholder="Enter Serial No." name="name" required>
+  </div>
+<div class="textbox1">
+	<label> Registration Number :</label><br>
+    <input type="text" placeholder="Enter Registration No. " name="dob" required>
+  </div>
+<div class="textbox1">
+	<label> Engine Type :</label><br>
+<select name="gender" required>
+  <option value="">Select Engine Type</option>
+  <option value="Petrol">Petrol</option>
+  <option value="Diesel">Diesel</option>
+  <option value="CNG">CNG</option>
+</select><br><br>
+</div>
+<div class="textbox1">
+<label>Factory Type:</label><br>
+<select  name="accttype" required>
+  <option value="">Select Factory Type</option>
+  <option value="Auto">Automatic</option>
+  <option value="Manual">Manual</option>
+</select>
+  </div><br>
+<div class="textbox1">
+<label> Date Of Sale:</label><br>
+    <input type="date" name="Nname" required>
+</div>
+<div class="textbox1">
+<label>Factory Manager:</label>
+    <input type="text" placeholder="Enter Factory Manager" name="adhaar" required>
+</div>
+<div class="textbox1">
+<label>Date Of Manufacture:</label>
+    <input type="date" name="address" required>
+</div>
+<div class="textbox1">
+	<label>Factory Location: </label>
+    <input type="text" placeholder="Enter Factory Location" name="balance" required>
+</div>
+  <input type="submit" class="btn1" value="Commit">
+ </form>               
+</div>
+
+
+       
+</body>
+</html>
