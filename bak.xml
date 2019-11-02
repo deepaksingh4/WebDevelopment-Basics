@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="bak.xsl"?>
+<catalog>
+<book>
+<title>madiwale</title>
+<author>the dombivalikar</author>
+<price>free</price>
+</book>
+<book>
+<title>anuraag</title>
+<author>being hiranandani nigga</author>
+<price>323$</price>
+</book>
+<book>
+<title>Abhishek</title>
+<author>koi chhole bhature dedo</author>
+<price>40$</price>
+</book>
+<book>
+<title>mandalal</title>
+<author>tragedy king</author>
+<price>500$</price>
+</book>
+<book>
+<title>amitash</title>
+<author>apunko mulund swach krna hai</author>
+<price>2002</price>
+</book>
+<book>
+<title>gode</title>
+<author>the bhand nigga</author>
+<price>10$</price>
+</book>
+<book>
+<title>mishra</title>
+<author>kalyan rahiwasi</author>
+<price>50$</price>
+</book>
+</catalog>
